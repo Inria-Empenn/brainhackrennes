@@ -1,7 +1,7 @@
 # Site settings
-title: Brainhack Rennes 2018
+title: Brainhack Western France 2019
 email: brainhack@inria.fr
-description: 2-day workshop on April 25th-26th at IRISA Rennes
+description: 2-day workshop on November 14-15th at IRISA/Inria Rennes
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://brainhack.irisa.fr" # the base hostname & protocol for your site
 
