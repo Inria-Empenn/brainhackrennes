@@ -6,35 +6,86 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-        <div class="col-md-6 spaced-columns content-wrapper" style="font-size:1.1em; vertical-align:top;" >
-          <div align="center">
-            <h3>Develop interfaces and workflows for <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> in <a href="http://nipype.readthedocs.io/en/latest/">Nipype</a></h3> 
-            <p><img src="img/projects/brainhack_nipype_anima_project.png" style="width:80%;" alt="Nipype and Anima" /> </p>
-          </div>
-	  <p>
-            Nipype looks like a great framework to define small processing bricks and
-            automatically assemble them to form pipelines. At <a
-            href="https://inria-visages.github.io/brainhackrennes-2018/#projects">last year
-            brainhack</a>, we had time to define interfaces for the <a
-            href="https://github.com/Inria-Visages/Anima-Public">Anima</a> open-source
-            software. The idea this time is to go all the way to define a pipeline based on
-            Anima interfaces and try to run it on a cluster on some toy data.
-          </p>
-          <p>
-            <strong style="font-size:1.2em">Contact</strong>: 
-            <a href="mailto:olivier[dot]commowick[at]inria[dot]fr">Olivier Commowick</a> 
-          </p>
-        </div>
+      <div class="col-md-5">
+        <h3 class="text-center">
+          Develop interfaces and workflows for <a href="https://github.com/Inria-Visages/Anima-Public">Anima</a> in 
+          <a href="http://nipype.readthedocs.io/en/latest/">Nipype</a>
+          <p><img src="img/projects/brainhack_nipype_project.svg" width="80%" alt="Nipype and Anima" /> </p>
+        </h3> 
+        <p>
+          Nipype looks like a great framework to define small processing bricks and
+          automatically assemble them to form pipelines. At <a
+          href="https://inria-visages.github.io/brainhackrennes-2018/#projects">last year
+          brainhack</a>, we had time to define interfaces for the <a
+          href="https://github.com/Inria-Visages/Anima-Public">Anima</a> open-source
+          software. The idea this time is to go all the way to define a pipeline based on
+          Anima interfaces and try to run it on a cluster on some toy data.
+        </p>
+        <p>
+          <strong>Contact</strong>: <a href="mailto:olivier[dot]commowick[at]inria[dot]fr">Olivier Commowick</a> 
+        </p>
+      </div>
 
-        <div class="col-md-6 spaced-columns content-wrapper text-faded" style="font-size:1.1em; vertical-align:top;" >
-            <div align="center">
-            <h3>Your project!</h3>
-            <p>Is there a topic you are particularly interested in? A tool you would like to work on? Submit your own project!</p>
-            </div>
-            <p>Projects can cover any type of software development, but also can be a proposal for a focus discussion or, a self-training using public resources, and even more! All project proposals will be considered, please contact us if you are unsure whether your proposal can be submitted as a project. To submit a project, please <a href="mailto:brainhack[at]inria[dot]fr">email us</a> a project title and a short description with an image.</p>
-        </div>
+      <div class="col-md-5 col-md-offset-2">
+        <h3 class="text-center">
+          BULLE (cereBral vascULar bifurcation LabElling)
+          <p><img src="img/projects/brainhack_bulle_project.jpg" alt="Intracranial aneurysm" height="150"/> </p>
+        </h3>
+        <a data-toggle="collapse" data-target="#context-bulle"><h4>Context and issues ⮟</h4></a>
+        <p id="context-bulle" class="collapse">
+          <a href="https://www.ncbi.nlm.nih.gov/pubmed/28362927">ICAN</a> is a french
+          multi-center study aimed at bridging clinical observations, genomic markers as
+          well as quantitative imaging biomarkers to better understand the formation, the
+          development and the possible rupture of intracranial aneurysms. Saccular
+          aneurysms are generally localized at vessel bifurcations and several studies
+          have identified the anatomical localization of saccular aneurysms as <a
+          href="https://www.ncbi.nlm.nih.gov/pubmed/28667020">an important risk factor
+          for rupture</a>. One of the outcomes of ICAN is a large imaging biobank
+          resulting from routine medical imaging exams (ToF MRIs, CTs, or DSAs) provided
+          by the 34 french participating academic hospitals.  <a
+          href="https://project.inria.fr/shanoir">This data can be accessed</a> for
+          further analysis through <a
+          href="https://www.frontiersin.org/articles/10.3389/fict.2016.00025/full">the
+          Shanoir database</a>. However the analysis of the geometrical features of the
+          bifurcation that carry the IA is hampered by the lack of anatomical labelling.
+          Determining to which artery belongs a bifurcation carrying a saccular aneurysms
+          is a time-consuming task and requires expertise in brain anatomy.
+        </p>
+        
+        <h4>Objectives and expected outcomes</h4>
+        <p>
+          BULLE aims to design and implement an atlas-based neuroimaging processing
+          workflow for automatic labelling of the cerebrovascular trunk, also known as
+          the circle of Willis. These approaches, known as atlas-based segmentation, are
+          based on the registration between <a
+          href="https://www.nature.com/articles/s41597-019-0034-5">an anatomical
+          atlas</a> and the patient images, and the subsequent transfer of annotations
+          from the atlas to the images. We expect to gather experts in 3D MRI
+          registration and vascular imaging. Based on their expertise we will
+          collaboratively develop a reusable Jupyter notebook dedicated to the automatic
+          annotation of cerebral vessels. 
+        </p>
+        <p>
+          <strong>Contact</strong>: 
+          <a href="mailto:olivier[dot]commowick[at]inria[dot]fr">Olivier Commowick</a> 
+        </p>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-md-5 text-faded">
+        <h3 class="text-center">Your project!</h3>
+        <p>
+          Is there a topic you are particularly interested in? A tool you would like to work on? 
+          <a href="mailto:brainhack[at]irisa[dot]fr">Submit your own project!</a>
+        </p>
+        <p>
+          Projects can cover any type of software development, but also can be a proposal
+          for a focus discussion or, a self-training using public resources, and even
+          more! All project proposals will be considered, please contact us if you are
+          unsure whether your proposal can be submitted as a project. To submit a
+          project, please <a href="mailto:brainhack[at]inria[dot]fr">email us</a> a
+          project title and a short description with an image.</p>
       </div>
     </div>
   </div>
